@@ -132,3 +132,7 @@ a{
   height: 2rem;
   width: fit-content;
 }
+
+.sticky-nav{
+  position: fixed;
+}
