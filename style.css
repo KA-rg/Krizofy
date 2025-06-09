@@ -142,6 +142,10 @@ a{
   align-items: center;
   padding: 1rem 0 1rem 0;
 }
+.dark-badge{
+  background-color: #000;
+  color: white;
+}
 
 .sticky-nav-icons{
   margin-left: 0.75rem;
@@ -157,6 +161,9 @@ a{
   margin-right: 1rem;
 }
 
-.dark-badge{
-  
+@media (max-width: 1000px) {
+  .hide {
+    display: none;
+  }
 }
+
