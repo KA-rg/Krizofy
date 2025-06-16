@@ -41,6 +41,8 @@ body{
  height: 10%;
  z-index: 10;
  display: flex;
+ align-items: center;
+ justify-content: space-between;
 }
 
 
@@ -247,5 +249,9 @@ h2{
 
 .controls{
   width: 25%;
+}
+
+.player-control-icon{
+  height: 1.2rem;
 }
 
