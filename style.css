@@ -21,6 +21,7 @@ body{
   background-color:#121212;
   width: 23%;
   border-radius: 1rem;/*16px*/
+  height: 90%;
 }
 
 .main-content{
@@ -29,6 +30,7 @@ body{
   flex: 1;
   border-radius: 1rem;/*16px*/
   overflow: auto;
+  padding-bottom: 10%;
 }
 
 .music-player{
@@ -232,3 +234,17 @@ h2{
   border-top: 1px solid white;
   opacity: 0.4;
 }
+
+
+.album{
+  width: 25%;
+}
+
+.player{
+  width: 50%;
+}
+
+.controls{
+  width: 25%;
+}
+
